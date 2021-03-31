@@ -17,6 +17,10 @@
     font-weight: 200;
 }
 
+.top p {
+    width: 550px;
+}
+
 .top h1 span {
     display: block;
     font-weight: 600;
@@ -35,10 +39,27 @@
 }
 
 .left,
-.right {
+.right,
+.top {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.supervisor {
+    border-top: 3px solid hsl(180, 62%, 55%);
+}
+
+.team {
+    border-top: 3px solid hsl(0, 78%, 62%);
+}
+
+.karma {
+    border-top: 3px solid hsl(34, 97%, 64%);
+}
+
+.calculator {
+    border-top: 3px solid hsl(212, 86%, 64%);
 }
 
 .supervisor,
