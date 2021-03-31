@@ -1,0 +1,68 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.top h1,
+.top p {
+    font-weight: 200;
+}
+
+.top h1 span {
+    display: block;
+    font-weight: 600;
+}
+
+.top h1,
+.top h1 span,
+.top p {
+    text-align: center;
+}
+
+.template {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.left,
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.supervisor,
+.team,
+.karma,
+.calculator {
+    position: relative;
+    max-width: 300px;
+    min-height: 200px;
+    margin: 1em;
+}
+
+.supervisor img,
+.team img,
+.karma img,
+.calculator img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.mid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
