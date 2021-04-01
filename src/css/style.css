@@ -7,6 +7,10 @@
     font-family: "Poppins";
 }
 
+p {
+    font-size: 15px;
+}
+
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -15,22 +19,33 @@
     padding: 2em;
 }
 
+.text h1,
+p {
+    color: hsl(229, 6%, 66%);
+}
+
+.text h1 {
+    font-weight: 200;
+    color: hsl(234, 12%, 34%);
+}
+
+.text span,
+h3 {
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+}
+
 .template {
     height: 100%;
 }
 
-.top h1,
-.top p {
-    font-weight: 200;
-}
-
 .top p {
     width: 550px;
+    font-weight: 400;
 }
 
 .top h1 span {
     display: block;
-    font-weight: 600;
 }
 
 .top h1,
@@ -79,6 +94,8 @@
     margin: 1em;
     padding: 1em;
     background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 5px 10px hsl(229deg 73% 88% / 73%);
 }
 
 .supervisor img,
@@ -88,6 +105,7 @@
     position: absolute;
     right: 0;
     bottom: 0;
+    padding: 1em;
 }
 
 .mid {
